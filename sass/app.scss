@@ -863,7 +863,9 @@ form {
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     overflow: visible;
-    height: 48px;
+    height: 46px;
+    width: 100%;
+    min-width: 100%;
   }
 
   input[type="date"]::-webkit-calendar-picker-indicator,
@@ -877,6 +879,7 @@ form {
     right: -3px;
     z-index: 99;
     border-radius: 1px;
+    opacity: 0;
   }
 
   input[type="date"]::after {
@@ -884,7 +887,7 @@ form {
     cursor: pointer;
     position: absolute;
     pointer-events: none;
-    top: -1px;
+    top: -2px;
     right: -1px;
     z-index: 99;
     border-radius: 1px;
