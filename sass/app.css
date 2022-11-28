@@ -1537,5 +1537,59 @@ form .accepted-payments-methods {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<  */
+/* >>>>>>>>>>>>>>>>>>> Capture <<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<  */
+.capture {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(37, 37, 37, 0.8549019608);
+  z-index: 999;
+  overflow: auto;
+}
+.capture__image {
+  max-width: 450px;
+  margin: 0 auto;
+  margin-top: 13.4%;
+}
+.capture__image .image-ratio {
+  position: relative;
+  max-width: calc(100% - 30px);
+  margin: 0 auto;
+  padding-top: 144%;
+  overflow: hidden;
+}
+.capture__image .image-ratio img {
+  position: absolute;
+  width: 100%;
+  inset: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.capture__icon {
+  position: absolute;
+  left: 50%;
+  bottom: 6.4%;
+  transform: translateX(-50%);
+}
+.capture__icon .circle {
+  width: 64px;
+  height: 64px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.capture__icon .circle__inner {
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  background: white;
+  border-radius: 50%;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<  */
 /* >>>>>>>>>>>>>>>>>>>> End <<<<<<<<<<<<<<<<<<<< */
 /* >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<  *//*# sourceMappingURL=app.css.map */

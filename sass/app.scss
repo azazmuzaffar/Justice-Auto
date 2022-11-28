@@ -1777,5 +1777,65 @@ form {
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<  */
+/* >>>>>>>>>>>>>>>>>>> Capture <<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<  */
+
+.capture {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #252525da;
+  z-index: 999;
+  overflow: auto;
+
+  &__image {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 13.4%;
+
+    .image-ratio {
+      position: relative;
+      max-width: calc(100% - 30px);
+      margin: 0 auto;
+      padding-top: 144%;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        width: 100%;
+        inset: 0;
+        object-fit: cover;
+      }
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    left: 50%;
+    bottom: 6.4%;
+    transform: translateX(-50%);
+
+    .circle {
+      width: 64px;
+      height: 64px;
+      border: 2px solid white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__inner {
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+        background: white;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<  */
 /* >>>>>>>>>>>>>>>>>>>> End <<<<<<<<<<<<<<<<<<<< */
 /* >>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<  */
