@@ -725,10 +725,10 @@ form .input-control label.ml-increase {
 form .input-control .input-has-icon {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 form .input-control .input-has-icon .icon-wrapper {
   cursor: pointer;
+  margin-left: 10px;
 }
 form h4,
 form label {
@@ -763,6 +763,7 @@ form input[type=date] {
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
   overflow: visible;
+  height: 48px;
 }
 form input[type=date]::-webkit-calendar-picker-indicator,
 form #picker::-webkit-calendar-picker-indicator {
