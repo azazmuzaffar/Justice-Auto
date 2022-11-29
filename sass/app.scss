@@ -867,8 +867,7 @@ form {
     width: 100%;
     min-width: 100%;
     text-align: left;
-    display: flex;
-    align-items: center;
+    padding: 15px;
   }
 
   input[type="date"]::-webkit-calendar-picker-indicator,
