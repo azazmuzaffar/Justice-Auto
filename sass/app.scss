@@ -1795,7 +1795,11 @@ form {
   &__image {
     max-width: 450px;
     margin: 0 auto;
-    margin-top: 13.4%;
+    margin-top: 100px;
+
+    @media screen and (max-width: 767px) {
+      margin-top: 13.4%;
+    }
 
     .image-ratio {
       position: relative;

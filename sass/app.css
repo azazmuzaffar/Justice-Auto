@@ -1554,7 +1554,12 @@ form .accepted-payments-methods {
 .capture__image {
   max-width: 450px;
   margin: 0 auto;
-  margin-top: 13.4%;
+  margin-top: 100px;
+}
+@media screen and (max-width: 767px) {
+  .capture__image {
+    margin-top: 13.4%;
+  }
 }
 .capture__image .image-ratio {
   position: relative;
