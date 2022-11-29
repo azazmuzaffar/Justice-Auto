@@ -766,6 +766,8 @@ form input[type=date] {
   height: 46px;
   width: 100%;
   min-width: 100%;
+  display: flex;
+  align-items: center;
 }
 form input[type=date]::-webkit-calendar-picker-indicator,
 form #picker::-webkit-calendar-picker-indicator {

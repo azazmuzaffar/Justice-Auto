@@ -866,6 +866,9 @@ form {
     height: 46px;
     width: 100%;
     min-width: 100%;
+
+    display: flex;
+    align-items: center;
   }
 
   input[type="date"]::-webkit-calendar-picker-indicator,
