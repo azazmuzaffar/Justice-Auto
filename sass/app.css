@@ -766,6 +766,7 @@ form input[type=date] {
   height: 46px;
   width: 100%;
   min-width: 100%;
+  text-align: left;
   display: flex;
   align-items: center;
 }
